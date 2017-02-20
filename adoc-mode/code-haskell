@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: haskell-inline
+# key: ```
+# group: asciidoc-source
+# --
+\` $1 \`

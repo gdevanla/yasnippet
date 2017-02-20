@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: asciisrc
+# key: asciisrc
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+
+[source, haskell]
+---
+> {$1}
+---

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: haskell source block
+# key: sh
+# group: asciidoc-source
+# --
+[source, haskell]
+----
+$1
+----
