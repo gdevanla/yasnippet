@@ -1,0 +1,17 @@
+# -*- mode: snippet -*-
+# name: unit-test
+# key: ut
+# --
+import unittest
+
+from RALib.test.test import RATestCase
+
+from RALib.core import environment
+env = environment.EnvironmentFactory.get('${1:}')
+
+class ${2:TestUnit}(RATestCase):
+      def test_${3:something}(self):
+          pass
+
+if __name__ == '__main__':
+   unittest.main()

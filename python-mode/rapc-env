@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: rapc-env
+# key: envr
+# --
+
+from RALib.core import environment
+env = environment.EnvironmentFactory.get('${1:}')
